@@ -1,6 +1,6 @@
-package com.liean.book.springboot.web;
+package com.liean.book.springboot.service.web;
 
-import com.liean.book.springboot.web.dto.HelloResponseDto;
+import com.liean.book.springboot.service.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

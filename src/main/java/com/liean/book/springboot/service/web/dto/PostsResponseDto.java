@@ -1,4 +1,4 @@
-package com.liean.book.springboot.web.dto;
+package com.liean.book.springboot.service.web.dto;
 
 import com.liean.book.springboot.domain.posts.Posts;
 import lombok.Getter;

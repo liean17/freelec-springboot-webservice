@@ -1,6 +1,6 @@
 package com.liean.book.springboot.web.dto;
 
-import org.junit.jupiter.api.Assertions;
+import com.liean.book.springboot.service.web.dto.HelloResponseDto;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;

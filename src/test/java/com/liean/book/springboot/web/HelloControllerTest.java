@@ -1,5 +1,6 @@
 package com.liean.book.springboot.web;
 
+import com.liean.book.springboot.service.web.HelloController;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

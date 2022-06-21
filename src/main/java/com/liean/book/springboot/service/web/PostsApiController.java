@@ -1,9 +1,9 @@
-package com.liean.book.springboot.web;
+package com.liean.book.springboot.service.web;
 
 import com.liean.book.springboot.service.PostsService;
-import com.liean.book.springboot.web.dto.PostsResponseDto;
-import com.liean.book.springboot.web.dto.PostsSaveRequestDto;
-import com.liean.book.springboot.web.dto.PostsUpdateRequestDto;
+import com.liean.book.springboot.service.web.dto.PostsResponseDto;
+import com.liean.book.springboot.service.web.dto.PostsSaveRequestDto;
+import com.liean.book.springboot.service.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,4 +29,9 @@ public class PostsApiController {
         return postsService.findById(id);
     }
 
+    @DeleteMapping("/api/v1/posts/{id}")
+    public Long delete(@PathVariable Long id){
+        postsService.delete(id);
+        return id;
+    }
 }

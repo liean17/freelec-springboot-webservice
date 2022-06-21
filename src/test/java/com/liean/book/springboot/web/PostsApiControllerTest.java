@@ -2,8 +2,8 @@ package com.liean.book.springboot.web;
 
 import com.liean.book.springboot.domain.posts.Posts;
 import com.liean.book.springboot.domain.posts.PostsRepository;
-import com.liean.book.springboot.web.dto.PostsSaveRequestDto;
-import com.liean.book.springboot.web.dto.PostsUpdateRequestDto;
+import com.liean.book.springboot.service.web.dto.PostsSaveRequestDto;
+import com.liean.book.springboot.service.web.dto.PostsUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
