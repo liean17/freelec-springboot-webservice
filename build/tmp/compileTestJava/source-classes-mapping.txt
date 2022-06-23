@@ -1,0 +1,10 @@
+com/liean/book/springboot/web/IndexControllerTest.java
+ com.liean.book.springboot.web.IndexControllerTest
+com/liean/book/springboot/web/PostsApiControllerTest.java
+ com.liean.book.springboot.web.PostsApiControllerTest
+com/liean/book/springboot/web/dto/HelloResponseDtoTest.java
+ com.liean.book.springboot.web.dto.HelloResponseDtoTest
+com/liean/book/springboot/web/HelloControllerTest.java
+ com.liean.book.springboot.web.HelloControllerTest
+com/liean/book/springboot/domain/posts/PostsRepositoryTest.java
+ com.liean.book.springboot.domain.posts.PostsRepositoryTest
